@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import "./AgentLoginForm.css";
+import {useDispatch} from "react-redux";
+import { manualSignIn } from "../redux/slices/LoginAction";
 // import AgentLogo from "../../asset/Black-Red.jpg";
 
+
 const AgentLoginForm = () => {
+  const dispatch = useDispatch();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [ userNamevalidataion, setUserNameValidation ] = useState(false);
@@ -12,6 +16,7 @@ const AgentLoginForm = () => {
     e.preventDefault();
     console.log("Username:", username);
     console.log("Password:", password);
+    dispatch(manualSignIn())
   };
 
   return (

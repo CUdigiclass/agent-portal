@@ -1,0 +1,145 @@
+/* .homecontainer{
+    background-color: #ccc;
+} */
+
+.home-top{
+  
+    width: 700px;
+    height: 300px;
+    margin: 30vh  auto 0px;
+    background-color: lightgray;
+}
+.header-top1{
+ 
+    width: 700px;
+    height: 300px;
+    margin: 0px auto;
+    background-color:#e6ecec
+}
+
+.loginhead{
+    font-weight: normal;
+
+}
+
+.main-head{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+h2{
+    margin-left:-20px
+}
+
+.sighn-head{
+    padding-top: 20p;
+}
+
+
+
+.login-form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .logo-container img {
+    max-width: 100px;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+  
+  .agent-header {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .agent-para {
+    padding-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0057b3ab;
+  }
+  
+  .bottom-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+    /* font-weight: bold; */
+  }
+  
+  .bottom-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .sure-button{
+    margin: auto;
+  }
+  .sign-head{
+    margin-right: 50vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .sign-header{
+    margin-right: 55vh;
+    padding-top: 30px;
+    /* margin-bottom: 20px; */
+  }
+  .para-header{
+    padding-left:40px;
+    padding-right:20px;
+    font-size: 22px;
+    text-align: justify;
+
+  }
+
+
+.loginform{
+    margin-left: 30px;
+}
+hr{
+    border-width: 0;
+    height: 5px;
+    background-color: #FA183E !important;
+    width: 15%;
+    margin:  0px 50px ;
+    opacity: 1 !important;
+    border-radius: 10px;
+}

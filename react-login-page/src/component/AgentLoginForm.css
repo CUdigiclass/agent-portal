@@ -1,24 +1,14 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  /* background-image: url("../../asset/slide-2.png"); */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .login-form-container {
   width: 300px;
-  margin: 0 auto;
+  margin: 1000px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   text-align: center;
+
 }
 
 .logo-container img {
